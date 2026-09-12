@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/modernist-7a046a9a-10a1-4c54-a15c-2420bcdda2cf/styles.css">
+<script src="_ds/modernist-7a046a9a-10a1-4c54-a15c-2420bcdda2cf/_ds_bundle.js"></script>
+<style>
+  body{margin:0;background:#e9e3d8}
+  a{color:#a3591f}
+  a:hover{color:#7a4013}
+  .kis-label{font-family:var(--font-heading);font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#1c1a17;margin:0 0 10px 4px}
+  .kis-row{display:flex;flex-direction:column;align-items:flex-start;flex:none}
+  .kis-th{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.55);font-family:var(--font-heading);font-weight:800;text-align:left;padding:0 16px 12px 0}
+  .kis-td{padding:16px 16px 16px 0;font-size:14px;vertical-align:middle}
+  .kis-toggle{width:44px;height:24px;border:2px solid #1c1a17;position:relative;flex:none}
+  .kis-toggle-on{background:#ffd6a8}
+  .kis-toggle-knob{position:absolute;top:1px;width:16px;height:16px;background:#1c1a17}
+</style>
+</helmet>
+
+<div style="display:flex;gap:40px;align-items:flex-start;overflow-x:auto;padding:40px;box-sizing:border-box">
+
+<div class="kis-row">
+<div class="kis-label">1 &middot; Dashboard (KPO &middot; Desktop)</div>
+<x-import component-from-global-scope="ChromeWindow" from="./browser-window.jsx" url="kis.internal/kpo/dashboard" width="1280" height="820" hint-size="1280px,820px">
+<div style="height:100%;display:flex;flex-direction:column;background:#fdfbf8;font-family:var(--font-body);color:#1c1a17">
+
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:0 32px;height:64px;border-bottom:2px solid rgba(28,26,23,.15)">
+    <div style="display:flex;align-items:center;gap:28px">
+      <div style="font-family:var(--font-heading);font-weight:800;font-size:20px;letter-spacing:-.01em">KIS</div>
+      <div style="display:flex;gap:22px">
+        <div style="font-size:13px;font-weight:800;font-family:var(--font-heading);border-bottom:2px solid #1c1a17;padding-bottom:20px;margin-bottom:-22px">Dashboard</div>
+      </div>
+    </div>
+    <div style="font-size:13px;color:rgba(28,26,23,.7)">Sundar Raj &middot; KPO &middot; Plant 3</div>
+  </div>
+
+  <div style="flex:1;overflow:auto;padding:28px 32px">
+   <div style="max-width:960px;margin:0 auto">
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(28,26,23,.15);border:2px solid rgba(28,26,23,.15);margin-bottom:28px">
+      <div style="background:#fdfbf8;padding:18px 22px">
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:30px">18</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:4px">In progress</div>
+      </div>
+      <div style="background:#fdfbf8;padding:18px 22px">
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:30px">5</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:4px">High priority</div>
+      </div>
+      <div style="background:#fdfbf8;padding:18px 22px">
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:30px">62</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:4px">Implemented</div>
+      </div>
+      <div style="background:#fdfbf8;padding:18px 22px">
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:30px">7</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:4px">Horizontal deploy</div>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;gap:16px">
+      <div style="display:flex;align-items:center;gap:10px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;padding:0 14px;height:42px;width:320px">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <span style="font-size:13px;color:rgba(28,26,23,.45)">Search by ref ID, employee, or keyword</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;padding:0 14px;height:42px">
+        <span style="font-size:13px;color:#1c1a17;font-weight:600">All departments</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+      </div>
+      <div style="display:flex;gap:8px">
+        <div style="padding:8px 14px;background:#1c1a17;color:#ffd6a8;font-size:12px;font-weight:800;font-family:var(--font-heading)">ALL</div>
+        <div style="padding:8px 14px;border:2px solid rgba(28,26,23,.25);font-size:12px;font-weight:800;font-family:var(--font-heading)">HIGH</div>
+        <div style="padding:8px 14px;border:2px solid rgba(28,26,23,.25);font-size:12px;font-weight:800;font-family:var(--font-heading)">MEDIUM</div>
+        <div style="padding:8px 14px;border:2px solid rgba(28,26,23,.25);font-size:12px;font-weight:800;font-family:var(--font-heading)">LOW</div>
+      </div>
+    </div>
+
+    <table style="width:100%;border-collapse:collapse;table-layout:fixed">
+      <thead>
+        <tr style="border-bottom:2px solid #1c1a17">
+          <th class="kis-th" style="width:150px">Ref ID</th>
+          <th class="kis-th" style="width:170px">Employee</th>
+          <th class="kis-th">Issue</th>
+          <th class="kis-th" style="width:110px">Priority</th>
+          <th class="kis-th" style="width:130px">Stage</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:2px solid rgba(28,26,23,.15)">
+          <td class="kis-td" style="font-family:ui-monospace,monospace;color:rgba(28,26,23,.6)">KIS-PLT03-000440</td>
+          <td class="kis-td">Arun Kumar<div style="font-size:11px;color:rgba(28,26,23,.5)">Assembly Line 2</div></td>
+          <td class="kis-td" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Conveyor #4 changeover delay adds 35 min per changeover</td>
+          <td class="kis-td"><div style="display:flex;align-items:center;gap:7px"><div style="width:10px;height:10px;background:#1c1a17"></div>High</div></td>
+          <td class="kis-td"><div style="font-size:11px;font-family:var(--font-heading);font-weight:800;background:#ffd6a8;color:#1c1a17;padding:4px 8px;display:inline-block">PROCUREMENT</div></td>
+        </tr>
+        <tr style="border-bottom:2px solid rgba(28,26,23,.15)">
+          <td class="kis-td" style="font-family:ui-monospace,monospace;color:rgba(28,26,23,.6)">KIS-PLT03-000431</td>
+          <td class="kis-td">Divya Rao<div style="font-size:11px;color:rgba(28,26,23,.5)">Assembly Line 2</div></td>
+          <td class="kis-td" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Forklift charging bay overcrowded during shift change</td>
+          <td class="kis-td"><div style="display:flex;align-items:center;gap:7px"><div style="width:10px;height:10px;background:#ffd6a8;border:2px solid #1c1a17"></div>Medium</div></td>
+          <td class="kis-td"><div style="font-size:11px;font-family:var(--font-heading);font-weight:800;background:#ffd6a8;color:#1c1a17;padding:4px 8px;display:inline-block">TRIAL RUN</div></td>
+        </tr>
+        <tr style="border-bottom:2px solid rgba(28,26,23,.15)">
+          <td class="kis-td" style="font-family:ui-monospace,monospace;color:rgba(28,26,23,.6)">KIS-PLT03-000418</td>
+          <td class="kis-td">Meena Nair<div style="font-size:11px;color:rgba(28,26,23,.5)">Packing</div></td>
+          <td class="kis-td" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Extra trolley needed at packing station during peak hour</td>
+          <td class="kis-td"><div style="display:flex;align-items:center;gap:7px"><div style="width:10px;height:10px;border:2px solid rgba(28,26,23,.4)"></div>Low</div></td>
+          <td class="kis-td"><div style="font-size:11px;font-family:var(--font-heading);font-weight:800;border:2px solid #1c1a17;padding:3px 8px;display:inline-block">NOT STARTED</div></td>
+        </tr>
+        <tr>
+          <td class="kis-td" style="font-family:ui-monospace,monospace;color:rgba(28,26,23,.6)">KIS-PLT03-000402</td>
+          <td class="kis-td">Rahul Verma<div style="font-size:11px;color:rgba(28,26,23,.5)">Quality</div></td>
+          <td class="kis-td" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Overhead light flickers, affects visual inspection quality</td>
+          <td class="kis-td"><div style="display:flex;align-items:center;gap:7px"><div style="width:10px;height:10px;background:#ffd6a8;border:2px solid #1c1a17"></div>Medium</div></td>
+          <td class="kis-td"><div style="font-size:11px;font-family:var(--font-heading);font-weight:800;background:#1c1a17;color:#ffd6a8;padding:4px 8px;display:inline-block">IMPLEMENTED</div></td>
+        </tr>
+      </tbody>
+    </table>
+   </div>
+  </div>
+</div>
+</x-import>
+</div>
+
+<div class="kis-row">
+<div class="kis-label">2 &middot; Suggestion Detail &mdash; Implementation (Desktop)</div>
+<x-import component-from-global-scope="ChromeWindow" from="./browser-window.jsx" url="kis.internal/kpo/suggestions/KIS-PLT03-000440" width="1280" height="900" hint-size="1280px,900px">
+<div style="height:100%;display:flex;flex-direction:column;background:#fdfbf8;font-family:var(--font-body);color:#1c1a17">
+
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:0 32px;height:64px;border-bottom:2px solid rgba(28,26,23,.15)">
+    <div style="display:flex;align-items:center;gap:14px">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      <div style="font-family:var(--font-heading);font-weight:800;font-size:15px">Back to queue</div>
+    </div>
+    <div style="font-size:13px;color:rgba(28,26,23,.7)">Sundar Raj &middot; KPO</div>
+  </div>
+
+  <div style="flex:1;overflow:auto;display:flex;justify-content:center">
+   <div style="display:grid;grid-template-columns:1fr 380px;max-width:960px;width:100%">
+    <div style="padding:32px;border-right:2px solid rgba(28,26,23,.15)">
+      <div style="font-size:11px;color:rgba(28,26,23,.5);font-family:ui-monospace,monospace;margin-bottom:6px">KIS-PLT03-000440</div>
+      <div style="font-family:var(--font-heading);font-weight:800;font-size:24px;margin-bottom:6px">Conveyor #4 changeover delay</div>
+      <div style="font-size:13px;color:rgba(28,26,23,.55);margin-bottom:22px">Arun Kumar &middot; Assembly Line 2 &middot; Approved by Plant Head Sep 9</div>
+
+      <div style="font-size:14px;line-height:1.6;color:rgba(28,26,23,.85);margin-bottom:8px;max-width:560px"><strong>Issue:</strong> Changeover on conveyor line 4 takes 35 minutes because the guide rails must be unbolted by hand each time we switch product size.</div>
+      <div style="font-size:14px;line-height:1.6;color:rgba(28,26,23,.85);margin-bottom:26px;max-width:560px"><strong>Idea:</strong> Mount rails on a quick-release clamp so no tools are needed at changeover.</div>
+
+      <div style="border-top:2px solid rgba(28,26,23,.15);padding-top:22px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+          <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6)">Implementation stages</div>
+          <div style="display:flex;align-items:center;gap:6px;font-size:12px;font-weight:800;font-family:var(--font-heading)">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            ADD STAGE
+          </div>
+        </div>
+
+        <div style="position:relative;padding-left:26px">
+          <div style="position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:rgba(28,26,23,.15)"></div>
+
+          <div style="position:relative;margin-bottom:20px">
+            <div style="position:absolute;left:-26px;top:2px;width:12px;height:12px;background:#1c1a17"></div>
+            <div style="font-size:13px;font-weight:700">Procurement</div>
+            <div style="font-size:12px;color:rgba(28,26,23,.7);margin-top:3px;max-width:480px">Quick-release clamps ordered from vendor, 2-week lead time.</div>
+            <div style="font-size:11px;color:rgba(28,26,23,.5);margin-top:4px">Sep 10</div>
+          </div>
+
+          <div style="position:relative">
+            <div style="position:absolute;left:-27px;top:0;width:14px;height:14px;background:#ffd6a8;border:2px solid #1c1a17"></div>
+            <div style="font-size:13px;font-weight:700">Trial run</div>
+            <div style="font-size:12px;color:rgba(28,26,23,.7);margin-top:3px;max-width:480px">Clamps installed on Line 4, running one shift trial before full rollout.</div>
+            <div style="font-size:11px;color:rgba(28,26,23,.5);margin-top:4px">Sep 15</div>
+            <div style="display:flex;gap:8px;margin-top:8px">
+              <div style="width:52px;height:52px;background:#f4efe7;border:2px solid rgba(28,26,23,.15)"></div>
+              <div style="width:52px;height:52px;background:#f4efe7;border:2px solid rgba(28,26,23,.15)"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding:32px">
+      <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin-bottom:8px">Approx. cost savings</div>
+      <div style="display:flex;align-items:center;border:2px solid rgba(28,26,23,.2);background:#f4efe7;height:44px;margin-bottom:24px">
+        <div style="padding:0 12px;font-size:14px;color:rgba(28,26,23,.5);border-right:2px solid rgba(28,26,23,.2);height:100%;display:flex;align-items:center">&#8377;</div>
+        <div style="padding:0 12px;font-size:14px">48,000 / year</div>
+      </div>
+
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:24px">
+        <div>
+          <div style="font-size:13px;font-weight:700">Horizontal Deployment</div>
+          <div style="font-size:11px;color:rgba(28,26,23,.55);margin-top:2px;max-width:220px">Clone this suggestion to other plants</div>
+        </div>
+        <div class="kis-toggle kis-toggle-on"><div class="kis-toggle-knob" style="right:2px"></div></div>
+      </div>
+
+      <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin-bottom:8px">New stage</div>
+      <div style="height:38px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;display:flex;align-items:center;padding:0 12px;font-size:13px;color:rgba(28,26,23,.45);margin-bottom:10px">Stage title, e.g. Installed</div>
+      <div style="height:80px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;padding:10px 12px;font-size:13px;color:rgba(28,26,23,.45);margin-bottom:10px">Remarks&hellip;</div>
+      <div style="display:flex;gap:8px;margin-bottom:22px">
+        <div style="width:56px;height:56px;border:2px dashed rgba(28,26,23,.35);display:flex;align-items:center;justify-content:center;color:rgba(28,26,23,.4);font-size:20px;font-weight:300">+</div>
+      </div>
+
+      <div style="display:flex;align-items:center;justify-content:center;background:#1c1a17;color:#ffd6a8;height:48px;font-family:var(--font-heading);font-weight:800;font-size:13px;margin-bottom:12px">SAVE STAGE</div>
+      <div style="display:flex;align-items:center;justify-content:center;border:2px solid #1c1a17;color:#1c1a17;height:48px;font-family:var(--font-heading);font-weight:800;font-size:13px">MARK IMPLEMENTED</div>
+    </div>
+   </div>
+  </div>
+</div>
+</x-import>
+</div>
+
+</div>
+
+</x-dc>
+</body>
+</html>

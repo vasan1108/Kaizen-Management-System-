@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/modernist-7a046a9a-10a1-4c54-a15c-2420bcdda2cf/styles.css">
+<script src="_ds/modernist-7a046a9a-10a1-4c54-a15c-2420bcdda2cf/_ds_bundle.js"></script>
+<style>
+  body{margin:0;background:#e9e3d8}
+  a{color:#a3591f}
+  a:hover{color:#7a4013}
+  .kis-label{font-family:var(--font-heading);font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#1c1a17;margin:0 0 10px 4px}
+  .kis-row{display:flex;flex-direction:column;align-items:flex-start;flex:none}
+  .kis-tab{display:flex;flex-direction:column;align-items:center;gap:4px;flex:1;padding:8px 0}
+  .kis-tabbar{display:flex;border-top:2px solid rgba(28,26,23,.15);background:#fdfbf8;padding-bottom:22px}
+</style>
+</helmet>
+
+<div style="display:flex;gap:40px;align-items:flex-start;overflow-x:auto;padding:40px;box-sizing:border-box">
+
+<div class="kis-row">
+<div class="kis-label">1 &middot; Sign In</div>
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402px,874px">
+<div style="height:100%;display:flex;flex-direction:column;background:#fdfbf8;padding-top:60px;box-sizing:border-box;font-family:var(--font-body);color:#1c1a17">
+  <div style="padding:0 24px 20px">
+    <div style="font-family:var(--font-heading);font-weight:800;font-size:26px">Sign in</div>
+  </div>
+  <div style="display:flex;margin:0 24px 24px;border:2px solid #1c1a17">
+    <div style="flex:1;text-align:center;padding:11px 0;background:#1c1a17;color:#ffd6a8;font-family:var(--font-heading);font-weight:800;font-size:13px;letter-spacing:.04em">LOGIN</div>
+    <div style="flex:1;text-align:center;padding:11px 0;color:#1c1a17;font-family:var(--font-heading);font-weight:800;font-size:13px;letter-spacing:.04em">REGISTER</div>
+  </div>
+  <div style="flex:1;overflow:auto;padding:0 24px">
+    <div style="margin-bottom:18px">
+      <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin-bottom:6px">Employee ID</div>
+      <div style="height:46px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;display:flex;align-items:center;padding:0 12px;font-size:15px">EMP-10234</div>
+    </div>
+    <div style="margin-bottom:10px">
+      <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin-bottom:6px">Password</div>
+      <div style="height:46px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;display:flex;align-items:center;padding:0 12px;font-size:15px;letter-spacing:2px">&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;</div>
+    </div>
+    <div style="text-align:right;margin-bottom:26px"><a href="#" style="font-size:12px;text-decoration:underline">Forgot password?</a></div>
+  </div>
+  <div style="padding:20px 24px 34px">
+    <div style="display:flex;align-items:center;justify-content:center;background:#1c1a17;color:#ffd6a8;height:52px;font-family:var(--font-heading);font-weight:800;font-size:15px">SIGN IN</div>
+    <div style="text-align:center;margin-top:14px;font-size:13px;color:rgba(28,26,23,.7)">New here? <a href="#" style="text-decoration:underline">Register as employee</a></div>
+  </div>
+</div>
+</x-import>
+</div>
+
+<div class="kis-row">
+<div class="kis-label">2 &middot; Home</div>
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402px,874px">
+<div style="height:100%;display:flex;flex-direction:column;background:#fdfbf8;padding-top:60px;box-sizing:border-box;font-family:var(--font-body);color:#1c1a17">
+  <div style="padding:0 24px 18px;border-bottom:2px solid rgba(28,26,23,.15)">
+    <div style="font-size:12px;color:rgba(28,26,23,.6)">Assembly Line 2 &middot; Plant 3</div>
+    <div style="font-family:var(--font-heading);font-weight:800;font-size:24px;margin-top:2px">Hi, Arun</div>
+  </div>
+  <div style="flex:1;overflow:auto">
+    <div style="display:flex;border-bottom:2px solid rgba(28,26,23,.15)">
+      <div style="flex:1;padding:16px 12px;border-right:2px solid rgba(28,26,23,.15)">
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:26px">12</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:2px">Submitted</div>
+      </div>
+      <div style="flex:1;padding:16px 12px;border-right:2px solid rgba(28,26,23,.15)">
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:26px">4</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:2px">In review</div>
+      </div>
+      <div style="flex:1;padding:16px 12px;border-right:2px solid rgba(28,26,23,.15)">
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:26px">6</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:2px">Approved</div>
+      </div>
+      <div style="flex:1;padding:16px 12px">
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:26px">2</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:2px">Rejected</div>
+      </div>
+    </div>
+    <div style="margin:20px 24px;background:#ffd6a8;padding:18px;display:flex;align-items:center;justify-content:space-between">
+      <div>
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:17px">New Suggestion</div>
+        <div style="font-size:12px;color:rgba(28,26,23,.7);margin-top:2px">Report an issue on the floor</div>
+      </div>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+    </div>
+    <div style="padding:0 24px 8px;font-family:var(--font-heading);font-weight:800;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:rgba(28,26,23,.6)">Recent</div>
+    <div style="border-top:2px solid rgba(28,26,23,.15)">
+      <div style="padding:14px 24px;border-bottom:2px solid rgba(28,26,23,.15);display:flex;justify-content:space-between;gap:12px">
+        <div><div style="font-size:14px;font-weight:600">Conveyor #4 changeover delay</div><div style="font-size:11px;color:rgba(28,26,23,.55);margin-top:3px">KIS-PLT03-000481 &middot; Sep 8</div></div>
+        <div style="font-size:11px;font-family:var(--font-heading);font-weight:800;background:#1c1a17;color:#ffd6a8;padding:4px 8px;white-space:nowrap;align-self:flex-start">IMPLEMENTING</div>
+      </div>
+      <div style="padding:14px 24px;border-bottom:2px solid rgba(28,26,23,.15);display:flex;justify-content:space-between;gap:12px">
+        <div><div style="font-size:14px;font-weight:600">Loose guard rail near press 2</div><div style="font-size:11px;color:rgba(28,26,23,.55);margin-top:3px">KIS-PLT03-000477 &middot; Sep 5</div></div>
+        <div style="font-size:11px;font-family:var(--font-heading);font-weight:800;background:#ffd6a8;color:#1c1a17;padding:4px 8px;white-space:nowrap;align-self:flex-start">PH REVIEW</div>
+      </div>
+      <div style="padding:14px 24px;display:flex;justify-content:space-between;gap:12px">
+        <div><div style="font-size:14px;font-weight:600">Spare bin mislabeled, wrong parts pulled</div><div style="font-size:11px;color:rgba(28,26,23,.55);margin-top:3px">KIS-PLT03-000463 &middot; Aug 29</div></div>
+        <div style="font-size:11px;font-family:var(--font-heading);font-weight:800;background:transparent;color:#b3402a;border:2px solid #b3402a;padding:2px 8px;white-space:nowrap;align-self:flex-start">REJECTED</div>
+      </div>
+    </div>
+  </div>
+  <div class="kis-tabbar">
+    <div class="kis-tab" style="background:#fff2e2"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7"></path><path d="M9 22V12h6v10"></path></svg><div style="font-size:10px;font-weight:800;font-family:var(--font-heading)">HOME</div></div>
+    <div class="kis-tab"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(28,26,23,.5)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg><div style="font-size:10px;font-weight:800;font-family:var(--font-heading);color:rgba(28,26,23,.5)">NEW</div></div>
+    <div class="kis-tab"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(28,26,23,.5)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg><div style="font-size:10px;font-weight:800;font-family:var(--font-heading);color:rgba(28,26,23,.5)">MINE</div></div>
+  </div>
+</div>
+</x-import>
+</div>
+
+<div class="kis-row">
+<div class="kis-label">3 &middot; Submit &middot; Issue</div>
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402px,874px">
+<div style="height:100%;display:flex;flex-direction:column;background:#fdfbf8;padding-top:60px;box-sizing:border-box;font-family:var(--font-body);color:#1c1a17">
+  <div style="padding:0 24px 14px">
+    <div style="display:flex;align-items:center;justify-content:space-between">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      <div style="font-size:11px;color:rgba(28,26,23,.55);font-family:var(--font-heading);font-weight:800;letter-spacing:.04em">STEP 1 OF 3</div>
+    </div>
+    <div style="font-family:var(--font-heading);font-weight:800;font-size:22px;margin-top:10px">What's the issue?</div>
+    <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin-top:16px">Select your language</div>
+    <div style="display:flex;gap:8px;overflow-x:auto;margin-top:8px;padding-bottom:2px">
+      <div style="flex:none;padding:7px 12px;background:#1c1a17;color:#ffd6a8;font-size:12px;font-weight:800;font-family:var(--font-heading)">English</div>
+      <div style="flex:none;padding:7px 12px;border:2px solid rgba(28,26,23,.25);font-size:12px;font-weight:800;font-family:var(--font-heading)">தமிழ்</div>
+      <div style="flex:none;padding:7px 12px;border:2px solid rgba(28,26,23,.25);font-size:12px;font-weight:800;font-family:var(--font-heading)">हिन्दी</div>
+      <div style="flex:none;padding:7px 12px;border:2px solid rgba(28,26,23,.25);font-size:12px;font-weight:800;font-family:var(--font-heading)">मराठी</div>
+      <div style="flex:none;padding:7px 12px;border:2px solid rgba(28,26,23,.25);font-size:12px;font-weight:800;font-family:var(--font-heading)">ਪੰਜਾਬੀ</div>
+    </div>
+    <div style="display:flex;gap:4px;margin-top:12px">
+      <div style="flex:1;height:4px;background:#1c1a17"></div>
+      <div style="flex:1;height:4px;background:rgba(28,26,23,.15)"></div>
+      <div style="flex:1;height:4px;background:rgba(28,26,23,.15)"></div>
+    </div>
+  </div>
+  <div style="flex:1;overflow:auto;padding:6px 24px;border-top:2px solid rgba(28,26,23,.15)">
+    <div style="margin:18px 0">
+      <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin-bottom:6px">Line / Area</div>
+      <div style="height:44px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;display:flex;align-items:center;padding:0 12px;font-size:14px">Conveyor Line 4</div>
+    </div>
+    <div style="margin-bottom:18px">
+      <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin-bottom:6px">Exact spot (optional)</div>
+      <div style="height:44px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;display:flex;align-items:center;padding:0 12px;font-size:14px;color:rgba(28,26,23,.45)">e.g. near infeed sensor</div>
+    </div>
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
+      <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6)">Issue</div>
+      <div style="display:flex;border:2px solid #1c1a17">
+        <div style="padding:5px 10px;background:#1c1a17;color:#ffd6a8;font-size:11px;font-weight:800;font-family:var(--font-heading)">TYPE</div>
+        <div style="padding:5px 10px;font-size:11px;font-weight:800;font-family:var(--font-heading);display:flex;align-items:center;gap:4px">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path><path d="M19 10v1a7 7 0 0 1-14 0v-1"></path><line x1="12" y1="18" x2="12" y2="22"></line></svg>
+          SPEAK
+        </div>
+      </div>
+    </div>
+    <div style="height:110px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;padding:12px;font-size:14px;line-height:1.5">Changeover on conveyor line 4 takes 35 minutes because the guide rails must be unbolted by hand each time we switch product size.</div>
+    <div style="text-align:right;font-size:11px;color:rgba(28,26,23,.5);margin:6px 0 22px">28 / 250 words</div>
+    <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin-bottom:8px">Photo evidence</div>
+    <div style="display:flex;gap:10px;margin-bottom:24px">
+      <div style="width:74px;height:74px;border:2px dashed rgba(28,26,23,.35);display:flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"></path><circle cx="12" cy="13" r="3"></circle></svg></div>
+      <div style="width:74px;height:74px;border:2px dashed rgba(28,26,23,.35);display:flex;align-items:center;justify-content:center;color:rgba(28,26,23,.4);font-size:24px;font-weight:300">+</div>
+    </div>
+  </div>
+  <div style="padding:16px 24px 34px">
+    <div style="display:flex;align-items:center;justify-content:center;background:#1c1a17;color:#ffd6a8;height:52px;font-family:var(--font-heading);font-weight:800;font-size:15px">NEXT</div>
+  </div>
+</div>
+</x-import>
+</div>
+
+<div class="kis-row">
+<div class="kis-label">4 &middot; Submit &middot; Idea</div>
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402px,874px">
+<div style="height:100%;display:flex;flex-direction:column;background:#fdfbf8;padding-top:60px;box-sizing:border-box;font-family:var(--font-body);color:#1c1a17">
+  <div style="padding:0 24px 14px">
+    <div style="display:flex;align-items:center;justify-content:space-between">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      <div style="font-size:11px;color:rgba(28,26,23,.55);font-family:var(--font-heading);font-weight:800;letter-spacing:.04em">STEP 2 OF 3</div>
+    </div>
+    <div style="font-family:var(--font-heading);font-weight:800;font-size:22px;margin-top:10px">Got an idea?</div>
+    <div style="display:flex;gap:4px;margin-top:12px">
+      <div style="flex:1;height:4px;background:#1c1a17"></div>
+      <div style="flex:1;height:4px;background:#1c1a17"></div>
+      <div style="flex:1;height:4px;background:rgba(28,26,23,.15)"></div>
+    </div>
+  </div>
+  <div style="flex:1;overflow:auto;padding:6px 24px;border-top:2px solid rgba(28,26,23,.15)">
+    <div style="font-size:13px;color:rgba(28,26,23,.6);margin:16px 0">Optional, but helps the reviewer act faster.</div>
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
+      <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6)">Your idea (optional)</div>
+      <div style="display:flex;border:2px solid #1c1a17">
+        <div style="padding:5px 10px;background:#1c1a17;color:#ffd6a8;font-size:11px;font-weight:800;font-family:var(--font-heading)">TYPE</div>
+        <div style="padding:5px 10px;font-size:11px;font-weight:800;font-family:var(--font-heading);display:flex;align-items:center;gap:4px">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path><path d="M19 10v1a7 7 0 0 1-14 0v-1"></path><line x1="12" y1="18" x2="12" y2="22"></line></svg>
+          SPEAK
+        </div>
+      </div>
+    </div>
+    <div style="height:110px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;padding:12px;font-size:14px;line-height:1.5">Mount rails on a quick-release clamp so no tools are needed at changeover.</div>
+    <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin:22px 0 8px">Solution sketch (optional)</div>
+    <div style="display:flex;gap:10px;margin-bottom:24px">
+      <div style="width:74px;height:74px;border:2px dashed rgba(28,26,23,.35);display:flex;align-items:center;justify-content:center;color:rgba(28,26,23,.4);font-size:24px;font-weight:300">+</div>
+    </div>
+  </div>
+  <div style="padding:16px 24px 34px;display:flex;gap:12px">
+    <div style="flex:1;display:flex;align-items:center;justify-content:center;border:2px solid #1c1a17;color:#1c1a17;height:52px;font-family:var(--font-heading);font-weight:800;font-size:15px">BACK</div>
+    <div style="flex:1;display:flex;align-items:center;justify-content:center;background:#1c1a17;color:#ffd6a8;height:52px;font-family:var(--font-heading);font-weight:800;font-size:15px">NEXT</div>
+  </div>
+</div>
+</x-import>
+</div>
+
+<div class="kis-row">
+<div class="kis-label">5 &middot; Review &amp; Submit</div>
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402px,874px">
+<div style="height:100%;display:flex;flex-direction:column;background:#fdfbf8;padding-top:60px;box-sizing:border-box;font-family:var(--font-body);color:#1c1a17">
+  <div style="padding:0 24px 14px">
+    <div style="display:flex;align-items:center;justify-content:space-between">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      <div style="font-size:11px;color:rgba(28,26,23,.55);font-family:var(--font-heading);font-weight:800;letter-spacing:.04em">STEP 3 OF 3</div>
+    </div>
+    <div style="font-family:var(--font-heading);font-weight:800;font-size:22px;margin-top:10px">Review &amp; submit</div>
+    <div style="display:flex;gap:4px;margin-top:12px">
+      <div style="flex:1;height:4px;background:#1c1a17"></div>
+      <div style="flex:1;height:4px;background:#1c1a17"></div>
+      <div style="flex:1;height:4px;background:#1c1a17"></div>
+    </div>
+  </div>
+  <div style="flex:1;overflow:auto;padding:6px 24px;border-top:2px solid rgba(28,26,23,.15)">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:18px">
+      <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6)">Location</div>
+      <a href="#" style="font-size:12px;text-decoration:underline">Edit</a>
+    </div>
+    <div style="font-size:14px;margin:6px 0 18px">Conveyor Line 4 &mdash; near infeed sensor</div>
+    <div style="border-top:2px solid rgba(28,26,23,.15)"></div>
+    <div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:18px">
+      <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6)">Issue</div>
+      <a href="#" style="font-size:12px;text-decoration:underline">Edit</a>
+    </div>
+    <div style="font-size:14px;line-height:1.5;margin:6px 0 12px">Changeover on conveyor line 4 takes 35 minutes because the guide rails must be unbolted by hand each time we switch product size.</div>
+    <div style="display:flex;gap:8px;margin-bottom:18px">
+      <div style="width:56px;height:56px;background:#f4efe7;border:2px solid rgba(28,26,23,.15)"></div>
+      <div style="width:56px;height:56px;background:#f4efe7;border:2px solid rgba(28,26,23,.15)"></div>
+    </div>
+    <div style="border-top:2px solid rgba(28,26,23,.15)"></div>
+    <div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:18px">
+      <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6)">Idea</div>
+      <a href="#" style="font-size:12px;text-decoration:underline">Edit</a>
+    </div>
+    <div style="font-size:14px;line-height:1.5;margin:6px 0 24px">Mount rails on a quick-release clamp so no tools are needed at changeover.</div>
+  </div>
+  <div style="padding:16px 24px 34px">
+    <div style="display:flex;align-items:center;justify-content:center;background:#1c1a17;color:#ffd6a8;height:52px;font-family:var(--font-heading);font-weight:800;font-size:15px">SUBMIT SUGGESTION</div>
+  </div>
+</div>
+</x-import>
+</div>
+
+<div class="kis-row">
+<div class="kis-label">6 &middot; Confirmation</div>
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402px,874px">
+<div style="height:100%;display:flex;flex-direction:column;background:#fdfbf8;padding-top:60px;box-sizing:border-box;font-family:var(--font-body);color:#1c1a17">
+  <div style="flex:1;overflow:auto;padding:40px 28px 0">
+    <div style="width:56px;height:56px;background:#1c1a17;display:flex;align-items:center;justify-content:center">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#ffd6a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    </div>
+    <div style="font-family:var(--font-heading);font-weight:800;font-size:26px;margin:22px 0 8px">Submitted</div>
+    <div style="font-size:14px;line-height:1.5;color:rgba(28,26,23,.7);margin-bottom:22px">Your suggestion has been sent to your Department Head for review.</div>
+    <div style="display:inline-block;background:#ffd6a8;color:#1c1a17;padding:8px 14px;font-family:var(--font-heading);font-weight:800;font-size:14px;letter-spacing:.03em">KIS-PLT03-000512</div>
+  </div>
+  <div style="padding:20px 24px 34px">
+    <div style="display:flex;align-items:center;justify-content:center;background:#1c1a17;color:#ffd6a8;height:52px;font-family:var(--font-heading);font-weight:800;font-size:15px">VIEW IN MY SUGGESTIONS</div>
+    <div style="text-align:center;margin-top:14px"><a href="#" style="font-size:13px;text-decoration:underline">Submit another suggestion</a></div>
+  </div>
+</div>
+</x-import>
+</div>
+
+<div class="kis-row">
+<div class="kis-label">7 &middot; My Suggestions</div>
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402px,874px">
+<div style="height:100%;display:flex;flex-direction:column;background:#fdfbf8;padding-top:60px;box-sizing:border-box;font-family:var(--font-body);color:#1c1a17">
+  <div style="padding:0 24px 14px;border-bottom:2px solid rgba(28,26,23,.15)">
+    <div style="font-family:var(--font-heading);font-weight:800;font-size:24px;margin-bottom:14px">My Suggestions</div>
+    <div style="display:flex;gap:8px;overflow-x:auto">
+      <div style="flex:none;padding:6px 12px;background:#1c1a17;color:#ffd6a8;font-size:12px;font-weight:800;font-family:var(--font-heading)">ALL</div>
+      <div style="flex:none;padding:6px 12px;border:2px solid rgba(28,26,23,.25);font-size:12px;font-weight:800;font-family:var(--font-heading)">IN REVIEW</div>
+      <div style="flex:none;padding:6px 12px;border:2px solid rgba(28,26,23,.25);font-size:12px;font-weight:800;font-family:var(--font-heading)">APPROVED</div>
+      <div style="flex:none;padding:6px 12px;border:2px solid rgba(28,26,23,.25);font-size:12px;font-weight:800;font-family:var(--font-heading)">REJECTED</div>
+    </div>
+  </div>
+  <div style="flex:1;overflow:auto">
+    <div style="padding:14px 24px;border-bottom:2px solid rgba(28,26,23,.15)">
+      <div style="font-size:11px;color:rgba(28,26,23,.5);font-family:ui-monospace,monospace;margin-bottom:3px">KIS-PLT03-000512</div>
+      <div style="font-size:14px;font-weight:600;margin-bottom:6px">Changeover delay on conveyor line 4</div>
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div style="font-size:11px;color:rgba(28,26,23,.55)">Sep 12</div>
+        <div style="font-size:11px;font-family:var(--font-heading);font-weight:800;background:#ffd6a8;color:#1c1a17;padding:4px 8px">DH REVIEW</div>
+      </div>
+    </div>
+    <div style="padding:14px 24px;border-bottom:2px solid rgba(28,26,23,.15)">
+      <div style="font-size:11px;color:rgba(28,26,23,.5);font-family:ui-monospace,monospace;margin-bottom:3px">KIS-PLT03-000481</div>
+      <div style="font-size:14px;font-weight:600;margin-bottom:6px">Conveyor #4 changeover delay</div>
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div style="font-size:11px;color:rgba(28,26,23,.55)">Sep 8</div>
+        <div style="font-size:11px;font-family:var(--font-heading);font-weight:800;background:#1c1a17;color:#ffd6a8;padding:4px 8px">IMPLEMENTING</div>
+      </div>
+    </div>
+    <div style="padding:14px 24px;border-bottom:2px solid rgba(28,26,23,.15)">
+      <div style="font-size:11px;color:rgba(28,26,23,.5);font-family:ui-monospace,monospace;margin-bottom:3px">KIS-PLT03-000477</div>
+      <div style="font-size:14px;font-weight:600;margin-bottom:6px">Loose guard rail near press 2</div>
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div style="font-size:11px;color:rgba(28,26,23,.55)">Sep 5</div>
+        <div style="font-size:11px;font-family:var(--font-heading);font-weight:800;background:#ffd6a8;color:#1c1a17;padding:4px 8px">PH REVIEW</div>
+      </div>
+    </div>
+    <div style="padding:14px 24px;border-bottom:2px solid rgba(28,26,23,.15)">
+      <div style="font-size:11px;color:rgba(28,26,23,.5);font-family:ui-monospace,monospace;margin-bottom:3px">KIS-PLT03-000463</div>
+      <div style="font-size:14px;font-weight:600;margin-bottom:6px">Spare bin mislabeled, wrong parts pulled</div>
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div style="font-size:11px;color:rgba(28,26,23,.55)">Aug 29</div>
+        <div style="font-size:11px;font-family:var(--font-heading);font-weight:800;color:#b3402a;border:2px solid #b3402a;padding:2px 8px">REJECTED</div>
+      </div>
+    </div>
+    <div style="padding:14px 24px">
+      <div style="font-size:11px;color:rgba(28,26,23,.5);font-family:ui-monospace,monospace;margin-bottom:3px">KIS-PLT03-000410</div>
+      <div style="font-size:14px;font-weight:600;margin-bottom:6px">Extra trolley needed at packing station</div>
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div style="font-size:11px;color:rgba(28,26,23,.55)">Aug 14</div>
+        <div style="font-size:11px;font-family:var(--font-heading);font-weight:800;border:2px solid #1c1a17;padding:2px 8px">CLOSED</div>
+      </div>
+    </div>
+  </div>
+  <div class="kis-tabbar">
+    <div class="kis-tab"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(28,26,23,.5)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7"></path><path d="M9 22V12h6v10"></path></svg><div style="font-size:10px;font-weight:800;font-family:var(--font-heading);color:rgba(28,26,23,.5)">HOME</div></div>
+    <div class="kis-tab"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(28,26,23,.5)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg><div style="font-size:10px;font-weight:800;font-family:var(--font-heading);color:rgba(28,26,23,.5)">NEW</div></div>
+    <div class="kis-tab" style="background:#fff2e2"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg><div style="font-size:10px;font-weight:800;font-family:var(--font-heading)">MINE</div></div>
+  </div>
+</div>
+</x-import>
+</div>
+
+<div class="kis-row">
+<div class="kis-label">8 &middot; Suggestion Detail</div>
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402px,874px">
+<div style="height:100%;display:flex;flex-direction:column;background:#fdfbf8;padding-top:60px;box-sizing:border-box;font-family:var(--font-body);color:#1c1a17">
+  <div style="padding:0 24px 14px;border-bottom:2px solid rgba(28,26,23,.15)">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    <div style="font-size:11px;color:rgba(28,26,23,.5);font-family:ui-monospace,monospace;margin-top:10px">KIS-PLT03-000481</div>
+    <div style="font-family:var(--font-heading);font-weight:800;font-size:19px;margin-top:2px">Conveyor #4 changeover delay</div>
+    <div style="font-size:12px;color:rgba(28,26,23,.55);margin-top:4px">Conveyor Line 4 &middot; Submitted Sep 8</div>
+  </div>
+  <div style="flex:1;overflow:auto;padding:20px 24px">
+    <div style="position:relative;padding-left:26px">
+      <div style="position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:rgba(28,26,23,.15)"></div>
+
+      <div style="position:relative;margin-bottom:22px">
+        <div style="position:absolute;left:-26px;top:2px;width:12px;height:12px;background:#1c1a17"></div>
+        <div style="font-size:13px;font-weight:700">Submitted</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.55);margin-top:2px">Sep 8, 9:14 AM</div>
+      </div>
+
+      <div style="position:relative;margin-bottom:22px">
+        <div style="position:absolute;left:-26px;top:2px;width:12px;height:12px;background:#1c1a17"></div>
+        <div style="font-size:13px;font-weight:700">Dept Head review</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.55);margin-top:2px">Approved &middot; Priority: High &middot; Sep 8, 4:02 PM</div>
+      </div>
+
+      <div style="position:relative;margin-bottom:22px">
+        <div style="position:absolute;left:-26px;top:2px;width:12px;height:12px;background:#1c1a17"></div>
+        <div style="font-size:13px;font-weight:700">Plant Head review</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.55);margin-top:2px">Approved &middot; Sep 9, 11:20 AM</div>
+      </div>
+
+      <div style="position:relative;margin-bottom:22px">
+        <div style="position:absolute;left:-27px;top:0;width:14px;height:14px;background:#ffd6a8;border:2px solid #1c1a17"></div>
+        <div style="font-size:13px;font-weight:700">Implementation (KPO)</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.55);margin-top:2px">In progress &middot; started Sep 10</div>
+        <div style="font-size:12px;margin-top:8px;padding-left:2px;border-left:2px solid rgba(28,26,23,.15);padding-left:10px">
+          <div style="margin-bottom:4px"><strong>Procurement</strong> &mdash; quick-release clamps ordered</div>
+          <div style="color:rgba(28,26,23,.55)">Sep 10</div>
+        </div>
+      </div>
+
+      <div style="position:relative;margin-bottom:22px">
+        <div style="position:absolute;left:-26px;top:2px;width:12px;height:12px;border:2px solid rgba(28,26,23,.3)"></div>
+        <div style="font-size:13px;font-weight:700;color:rgba(28,26,23,.45)">Cost monitoring (Finance)</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.4);margin-top:2px">Pending</div>
+      </div>
+
+      <div style="position:relative">
+        <div style="position:absolute;left:-26px;top:2px;width:12px;height:12px;border:2px solid rgba(28,26,23,.3)"></div>
+        <div style="font-size:13px;font-weight:700;color:rgba(28,26,23,.45)">Closed</div>
+      </div>
+    </div>
+
+    <div style="border-top:2px solid rgba(28,26,23,.15);margin-top:24px;padding-top:18px">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px">
+        <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6)">Your submission</div>
+        <div style="display:flex;border:2px solid #1c1a17">
+          <div style="padding:4px 8px;background:#1c1a17;color:#ffd6a8;font-size:10px;font-weight:800;font-family:var(--font-heading)">EN</div>
+          <div style="padding:4px 8px;font-size:10px;font-weight:800;font-family:var(--font-heading)">ORIGINAL</div>
+        </div>
+      </div>
+      <div style="font-size:13px;line-height:1.5;color:rgba(28,26,23,.85)">Changeover on conveyor line 4 takes 35 minutes because the guide rails must be unbolted by hand each time we switch product size.</div>
+      <div style="display:flex;gap:8px;margin-top:12px">
+        <div style="width:52px;height:52px;background:#f4efe7;border:2px solid rgba(28,26,23,.15)"></div>
+        <div style="width:52px;height:52px;background:#f4efe7;border:2px solid rgba(28,26,23,.15)"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</x-import>
+</div>
+
+</div>
+
+</x-dc>
+</body>
+</html>

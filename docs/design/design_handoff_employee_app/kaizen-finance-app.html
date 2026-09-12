@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/modernist-7a046a9a-10a1-4c54-a15c-2420bcdda2cf/styles.css">
+<script src="_ds/modernist-7a046a9a-10a1-4c54-a15c-2420bcdda2cf/_ds_bundle.js"></script>
+<style>
+  body{margin:0;background:#e9e3d8}
+  a{color:#a3591f}
+  a:hover{color:#7a4013}
+  .kis-label{font-family:var(--font-heading);font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#1c1a17;margin:0 0 10px 4px}
+  .kis-row{display:flex;flex-direction:column;align-items:flex-start;flex:none}
+  .kis-th{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.55);font-family:var(--font-heading);font-weight:800;text-align:left;padding:0 16px 12px 0}
+  .kis-td{padding:16px 16px 16px 0;font-size:14px;vertical-align:middle}
+  .kis-nav{font-size:13px;color:rgba(28,26,23,.55)}
+  .kis-nav-active{font-size:13px;font-weight:800;font-family:var(--font-heading);border-bottom:2px solid #1c1a17;padding-bottom:20px;margin-bottom:-22px}
+</style>
+</helmet>
+
+<div style="display:flex;gap:40px;align-items:flex-start;overflow-x:auto;padding:40px;box-sizing:border-box">
+
+<div class="kis-row">
+<div class="kis-label">1 &middot; Dashboard (Finance &middot; Desktop)</div>
+<x-import component-from-global-scope="ChromeWindow" from="./browser-window.jsx" url="kis.internal/finance/dashboard" width="1280" height="820" hint-size="1280px,820px">
+<div style="height:100%;display:flex;flex-direction:column;background:#fdfbf8;font-family:var(--font-body);color:#1c1a17">
+
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:0 32px;height:64px;border-bottom:2px solid rgba(28,26,23,.15)">
+    <div style="display:flex;align-items:center;gap:28px">
+      <div style="font-family:var(--font-heading);font-weight:800;font-size:20px;letter-spacing:-.01em">KIS</div>
+      <div style="display:flex;gap:22px">
+        <div class="kis-nav-active">Dashboard</div>
+        <div class="kis-nav">MIS Reports</div>
+      </div>
+    </div>
+    <div style="font-size:13px;color:rgba(28,26,23,.7)">Lakshmi Venkat &middot; Finance &middot; Plant 3</div>
+  </div>
+
+  <div style="flex:1;overflow:auto;padding:28px 32px">
+   <div style="max-width:960px;margin:0 auto">
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(28,26,23,.15);border:2px solid rgba(28,26,23,.15);margin-bottom:28px">
+      <div style="background:#fdfbf8;padding:18px 22px">
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:30px">22</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:4px">Monitoring</div>
+      </div>
+      <div style="background:#fdfbf8;padding:18px 22px">
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:30px">54</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:4px">Monitored</div>
+      </div>
+      <div style="background:#fdfbf8;padding:18px 22px">
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:30px">4</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:4px">Overdue</div>
+      </div>
+      <div style="background:#fdfbf8;padding:18px 22px">
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:30px">&#8377;9.4L</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:4px">Actual savings YTD</div>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;gap:16px">
+      <div style="display:flex;align-items:center;gap:10px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;padding:0 14px;height:42px;width:280px">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <span style="font-size:13px;color:rgba(28,26,23,.45)">Search by ref ID, employee&hellip;</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;padding:0 14px;height:42px">
+        <span style="font-size:13px;color:#1c1a17;font-weight:600">All plants</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;padding:0 14px;height:42px">
+        <span style="font-size:13px;color:#1c1a17;font-weight:600">All departments</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+      </div>
+      <div style="display:flex;gap:8px">
+        <div style="padding:8px 14px;background:#1c1a17;color:#ffd6a8;font-size:12px;font-weight:800;font-family:var(--font-heading)">ALL</div>
+        <div style="padding:8px 14px;border:2px solid rgba(28,26,23,.25);font-size:12px;font-weight:800;font-family:var(--font-heading)">HIGH</div>
+      </div>
+    </div>
+
+    <table style="width:100%;border-collapse:collapse;table-layout:fixed">
+      <thead>
+        <tr style="border-bottom:2px solid #1c1a17">
+          <th class="kis-th" style="width:140px">Ref ID</th>
+          <th class="kis-th" style="width:150px">Employee</th>
+          <th class="kis-th">Issue</th>
+          <th class="kis-th" style="width:100px">Approx.</th>
+          <th class="kis-th" style="width:100px">Actual</th>
+          <th class="kis-th" style="width:120px">Monitoring</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:2px solid rgba(28,26,23,.15)">
+          <td class="kis-td" style="font-family:ui-monospace,monospace;color:rgba(28,26,23,.6)">KIS-PLT03-000398</td>
+          <td class="kis-td">Arun Kumar<div style="font-size:11px;color:rgba(28,26,23,.5)">Assembly Line 2</div></td>
+          <td class="kis-td" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Conveyor #4 changeover delay adds 35 min per changeover</td>
+          <td class="kis-td">&#8377;48,000</td>
+          <td class="kis-td">&#8377;41,200</td>
+          <td class="kis-td"><div style="font-size:11px;font-family:var(--font-heading);font-weight:800;border:2px solid #1c1a17;padding:3px 8px;display:inline-block">MONITORING</div></td>
+        </tr>
+        <tr style="border-bottom:2px solid rgba(28,26,23,.15)">
+          <td class="kis-td" style="font-family:ui-monospace,monospace;color:rgba(28,26,23,.6)">KIS-PLT03-000371</td>
+          <td class="kis-td">Divya Rao<div style="font-size:11px;color:rgba(28,26,23,.5)">Assembly Line 2</div></td>
+          <td class="kis-td" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Forklift charging bay overcrowded during shift change</td>
+          <td class="kis-td">&#8377;12,500</td>
+          <td class="kis-td" style="color:rgba(28,26,23,.4)">&mdash;</td>
+          <td class="kis-td"><div style="font-size:11px;font-family:var(--font-heading);font-weight:800;background:#b3402a;color:#fdfbf8;padding:3px 8px;display:inline-block">OVERDUE</div></td>
+        </tr>
+        <tr style="border-bottom:2px solid rgba(28,26,23,.15)">
+          <td class="kis-td" style="font-family:ui-monospace,monospace;color:rgba(28,26,23,.6)">KIS-PLT03-000340</td>
+          <td class="kis-td">Meena Nair<div style="font-size:11px;color:rgba(28,26,23,.5)">Packing</div></td>
+          <td class="kis-td" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Extra trolley needed at packing station during peak hour</td>
+          <td class="kis-td">&#8377;6,000</td>
+          <td class="kis-td">&#8377;6,400</td>
+          <td class="kis-td"><div style="font-size:11px;font-family:var(--font-heading);font-weight:800;background:#1c1a17;color:#ffd6a8;padding:3px 8px;display:inline-block">MONITORED</div></td>
+        </tr>
+        <tr>
+          <td class="kis-td" style="font-family:ui-monospace,monospace;color:rgba(28,26,23,.6)">KIS-PLT03-000318</td>
+          <td class="kis-td">Rahul Verma<div style="font-size:11px;color:rgba(28,26,23,.5)">Quality</div></td>
+          <td class="kis-td" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Overhead light flickers, affects visual inspection quality</td>
+          <td class="kis-td">&#8377;3,200</td>
+          <td class="kis-td">&#8377;3,100</td>
+          <td class="kis-td"><div style="font-size:11px;font-family:var(--font-heading);font-weight:800;background:#1c1a17;color:#ffd6a8;padding:3px 8px;display:inline-block">MONITORED</div></td>
+        </tr>
+      </tbody>
+    </table>
+   </div>
+  </div>
+</div>
+</x-import>
+</div>
+
+<div class="kis-row">
+<div class="kis-label">2 &middot; Suggestion Detail &mdash; Monitoring (Desktop)</div>
+<x-import component-from-global-scope="ChromeWindow" from="./browser-window.jsx" url="kis.internal/finance/suggestions/KIS-PLT03-000398" width="1280" height="860" hint-size="1280px,860px">
+<div style="height:100%;display:flex;flex-direction:column;background:#fdfbf8;font-family:var(--font-body);color:#1c1a17">
+
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:0 32px;height:64px;border-bottom:2px solid rgba(28,26,23,.15)">
+    <div style="display:flex;align-items:center;gap:14px">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      <div style="font-family:var(--font-heading);font-weight:800;font-size:15px">Back to queue</div>
+    </div>
+    <div style="font-size:13px;color:rgba(28,26,23,.7)">Lakshmi Venkat &middot; Finance</div>
+  </div>
+
+  <div style="flex:1;overflow:auto;display:flex;justify-content:center">
+   <div style="display:grid;grid-template-columns:1fr 380px;max-width:960px;width:100%">
+    <div style="padding:32px;border-right:2px solid rgba(28,26,23,.15)">
+      <div style="font-size:11px;color:rgba(28,26,23,.5);font-family:ui-monospace,monospace;margin-bottom:6px">KIS-PLT03-000398</div>
+      <div style="font-family:var(--font-heading);font-weight:800;font-size:24px;margin-bottom:6px">Conveyor #4 changeover delay</div>
+      <div style="font-size:13px;color:rgba(28,26,23,.55);margin-bottom:26px">Arun Kumar &middot; Assembly Line 2 &middot; Implemented by KPO Sundar Raj, Sep 20</div>
+
+      <div style="font-size:14px;line-height:1.6;color:rgba(28,26,23,.85);margin-bottom:8px;max-width:560px"><strong>Issue:</strong> Changeover on conveyor line 4 takes 35 minutes because the guide rails must be unbolted by hand each time we switch product size.</div>
+      <div style="font-size:14px;line-height:1.6;color:rgba(28,26,23,.85);margin-bottom:26px;max-width:560px"><strong>Idea:</strong> Mount rails on a quick-release clamp so no tools are needed at changeover.</div>
+
+      <div style="border-top:2px solid rgba(28,26,23,.15);padding-top:22px">
+        <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin-bottom:14px">Implementation stages</div>
+        <div style="position:relative;padding-left:26px">
+          <div style="position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:rgba(28,26,23,.15)"></div>
+          <div style="position:relative;margin-bottom:20px">
+            <div style="position:absolute;left:-26px;top:2px;width:12px;height:12px;background:#1c1a17"></div>
+            <div style="font-size:13px;font-weight:700">Procurement</div>
+            <div style="font-size:11px;color:rgba(28,26,23,.5);margin-top:3px">Sep 10</div>
+          </div>
+          <div style="position:relative">
+            <div style="position:absolute;left:-26px;top:2px;width:12px;height:12px;background:#1c1a17"></div>
+            <div style="font-size:13px;font-weight:700">Implemented</div>
+            <div style="font-size:11px;color:rgba(28,26,23,.5);margin-top:3px">Sep 20</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding:32px">
+      <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin-bottom:8px">Approx. savings (KPO)</div>
+      <div style="display:flex;align-items:center;border:2px solid rgba(28,26,23,.15);background:#f4efe7;height:44px;margin-bottom:22px;opacity:.75">
+        <div style="padding:0 12px;font-size:14px;color:rgba(28,26,23,.5);border-right:2px solid rgba(28,26,23,.15);height:100%;display:flex;align-items:center">&#8377;</div>
+        <div style="padding:0 12px;font-size:14px">48,000 / year</div>
+      </div>
+
+      <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin-bottom:8px">Actual savings</div>
+      <div style="display:flex;align-items:center;border:2px solid rgba(28,26,23,.2);background:#f4efe7;height:44px;margin-bottom:22px">
+        <div style="padding:0 12px;font-size:14px;color:rgba(28,26,23,.5);border-right:2px solid rgba(28,26,23,.2);height:100%;display:flex;align-items:center">&#8377;</div>
+        <div style="padding:0 12px;font-size:14px">41,200 / year</div>
+      </div>
+
+      <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin-bottom:8px">Monitoring period</div>
+      <div style="display:flex;gap:8px;margin-bottom:22px">
+        <div style="flex:1;height:42px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;display:flex;align-items:center;padding:0 10px;font-size:13px">Sep 20, 2026</div>
+        <div style="flex:1;height:42px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;display:flex;align-items:center;padding:0 10px;font-size:13px">Dec 20, 2026</div>
+      </div>
+
+      <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin-bottom:10px">Monitoring status</div>
+      <div style="display:flex;border:2px solid #1c1a17;margin-bottom:26px">
+        <div style="flex:1;text-align:center;padding:10px 0;font-size:12px;font-weight:800;font-family:var(--font-heading);background:#ffd6a8">MONITORING</div>
+        <div style="flex:1;text-align:center;padding:10px 0;font-size:12px;font-weight:800;font-family:var(--font-heading);border-left:2px solid #1c1a17">MONITORED</div>
+      </div>
+
+      <div style="display:flex;align-items:center;justify-content:center;background:#1c1a17;color:#ffd6a8;height:48px;font-family:var(--font-heading);font-weight:800;font-size:13px">SAVE</div>
+    </div>
+   </div>
+  </div>
+</div>
+</x-import>
+</div>
+
+<div class="kis-row">
+<div class="kis-label">3 &middot; MIS Reports (Desktop)</div>
+<x-import component-from-global-scope="ChromeWindow" from="./browser-window.jsx" url="kis.internal/finance/reports" width="1280" height="860" hint-size="1280px,860px">
+<div style="height:100%;display:flex;flex-direction:column;background:#fdfbf8;font-family:var(--font-body);color:#1c1a17">
+
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:0 32px;height:64px;border-bottom:2px solid rgba(28,26,23,.15)">
+    <div style="display:flex;align-items:center;gap:28px">
+      <div style="font-family:var(--font-heading);font-weight:800;font-size:20px;letter-spacing:-.01em">KIS</div>
+      <div style="display:flex;gap:22px">
+        <div class="kis-nav">Dashboard</div>
+        <div class="kis-nav-active">MIS Reports</div>
+      </div>
+    </div>
+    <div style="font-size:13px;color:rgba(28,26,23,.7)">Lakshmi Venkat &middot; Finance &middot; Plant 3</div>
+  </div>
+
+  <div style="flex:1;overflow:auto;padding:28px 32px">
+   <div style="max-width:960px;margin:0 auto">
+    <div style="display:flex;gap:8px;margin-bottom:22px">
+      <div style="padding:9px 16px;background:#1c1a17;color:#ffd6a8;font-size:12px;font-weight:800;font-family:var(--font-heading)">COST SAVINGS</div>
+      <div style="padding:9px 16px;border:2px solid rgba(28,26,23,.25);font-size:12px;font-weight:800;font-family:var(--font-heading)">REALIZATION RATE</div>
+      <div style="padding:9px 16px;border:2px solid rgba(28,26,23,.25);font-size:12px;font-weight:800;font-family:var(--font-heading)">MONITORING STATUS</div>
+      <div style="padding:9px 16px;border:2px solid rgba(28,26,23,.25);font-size:12px;font-weight:800;font-family:var(--font-heading)">SAVINGS TREND</div>
+    </div>
+
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:24px;flex-wrap:wrap">
+      <div style="display:flex;align-items:center;gap:8px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;padding:0 12px;height:40px;font-size:13px">Jan 1, 2026 &ndash; Dec 31, 2026</div>
+      <div style="display:flex;align-items:center;gap:8px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;padding:0 12px;height:40px;font-size:13px">All plants <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
+      <div style="display:flex;align-items:center;gap:8px;border:2px solid rgba(28,26,23,.2);background:#f4efe7;padding:0 12px;height:40px;font-size:13px">All departments <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#1c1a17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
+      <div style="flex:1"></div>
+      <div style="display:flex;gap:8px">
+        <div style="padding:9px 14px;border:2px solid #1c1a17;font-size:12px;font-weight:800;font-family:var(--font-heading)">CSV</div>
+        <div style="padding:9px 14px;border:2px solid #1c1a17;font-size:12px;font-weight:800;font-family:var(--font-heading)">XLSX</div>
+        <div style="padding:9px 14px;background:#1c1a17;color:#ffd6a8;font-size:12px;font-weight:800;font-family:var(--font-heading)">PDF</div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(28,26,23,.15);border:2px solid rgba(28,26,23,.15);margin-bottom:28px">
+      <div style="background:#fdfbf8;padding:18px 22px">
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:28px">&#8377;38.6L</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:4px">Total approx. savings</div>
+      </div>
+      <div style="background:#fdfbf8;padding:18px 22px">
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:28px">&#8377;34.1L</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:4px">Total actual savings</div>
+      </div>
+      <div style="background:#fdfbf8;padding:18px 22px">
+        <div style="font-family:var(--font-heading);font-weight:800;font-size:28px">88%</div>
+        <div style="font-size:11px;color:rgba(28,26,23,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:4px">Realization rate</div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:28px">
+      <div>
+        <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin-bottom:12px">Approx. vs actual savings (&#8377; lakh)</div>
+        <div style="border:2px solid rgba(28,26,23,.15);padding:18px 18px 10px">
+          <div style="display:flex;align-items:flex-end;gap:18px;height:150px">
+            <div style="display:flex;flex-direction:column;align-items:center;gap:6px;flex:1">
+              <div style="display:flex;align-items:flex-end;gap:4px;height:120px">
+                <div style="width:20px;height:100%;background:#1c1a17"></div>
+                <div style="width:20px;height:88%;background:#ffd6a8;border:2px solid #1c1a17"></div>
+              </div>
+              <div style="font-size:11px;color:rgba(28,26,23,.6)">Line 2</div>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:6px;flex:1">
+              <div style="display:flex;align-items:flex-end;gap:4px;height:120px">
+                <div style="width:20px;height:48%;background:#1c1a17"></div>
+                <div style="width:20px;height:20%;background:#ffd6a8;border:2px solid #1c1a17"></div>
+              </div>
+              <div style="font-size:11px;color:rgba(28,26,23,.6)">Packing</div>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:6px;flex:1">
+              <div style="display:flex;align-items:flex-end;gap:4px;height:120px">
+                <div style="width:20px;height:26%;background:#1c1a17"></div>
+                <div style="width:20px;height:25%;background:#ffd6a8;border:2px solid #1c1a17"></div>
+              </div>
+              <div style="font-size:11px;color:rgba(28,26,23,.6)">Quality</div>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:6px;flex:1">
+              <div style="display:flex;align-items:flex-end;gap:4px;height:120px">
+                <div style="width:20px;height:34%;background:#1c1a17"></div>
+                <div style="width:20px;height:10%;background:#ffd6a8;border:2px solid #1c1a17"></div>
+              </div>
+              <div style="font-size:11px;color:rgba(28,26,23,.6)">Maint.</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:16px;margin-top:14px;border-top:2px solid rgba(28,26,23,.15);padding-top:10px">
+            <div style="display:flex;align-items:center;gap:6px;font-size:11px"><div style="width:10px;height:10px;background:#1c1a17"></div>Approx.</div>
+            <div style="display:flex;align-items:center;gap:6px;font-size:11px"><div style="width:10px;height:10px;background:#ffd6a8;border:2px solid #1c1a17"></div>Actual</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin-bottom:12px">Savings trend, monthly (&#8377; lakh)</div>
+        <div style="border:2px solid rgba(28,26,23,.15);padding:18px">
+          <svg viewBox="0 0 300 150" style="width:100%;height:150px">
+            <line x1="0" y1="30" x2="300" y2="30" stroke="rgba(28,26,23,.12)" stroke-width="1"></line>
+            <line x1="0" y1="70" x2="300" y2="70" stroke="rgba(28,26,23,.12)" stroke-width="1"></line>
+            <line x1="0" y1="110" x2="300" y2="110" stroke="rgba(28,26,23,.12)" stroke-width="1"></line>
+            <polyline points="0,120 50,100 100,95 150,80 200,60 250,45 300,20" fill="none" stroke="#1c1a17" stroke-width="2.5"></polyline>
+            <polyline points="0,130 50,118 100,110 150,100 200,90 250,75 300,55" fill="none" stroke="#ffd6a8" stroke-width="2.5"></polyline>
+          </svg>
+          <div style="display:flex;gap:16px;margin-top:8px;border-top:2px solid rgba(28,26,23,.15);padding-top:10px">
+            <div style="display:flex;align-items:center;gap:6px;font-size:11px"><div style="width:16px;height:2.5px;background:#1c1a17"></div>Approx.</div>
+            <div style="display:flex;align-items:center;gap:6px;font-size:11px"><div style="width:16px;height:2.5px;background:#ffd6a8"></div>Actual</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:rgba(28,26,23,.6);margin-bottom:12px">Top 10 contributors &mdash; Plant 3</div>
+    <table style="width:100%;border-collapse:collapse;table-layout:fixed;margin-bottom:8px">
+      <thead>
+        <tr style="border-bottom:2px solid #1c1a17">
+          <th class="kis-th" style="width:40px">#</th>
+          <th class="kis-th" style="width:170px">Employee</th>
+          <th class="kis-th" style="width:170px">Department</th>
+          <th class="kis-th" style="width:130px">Suggestions</th>
+          <th class="kis-th">Actual savings</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:2px solid rgba(28,26,23,.15)"><td class="kis-td">1</td><td class="kis-td">Arun Kumar</td><td class="kis-td">Assembly Line 2</td><td class="kis-td">6</td><td class="kis-td">&#8377;1,84,200</td></tr>
+        <tr style="border-bottom:2px solid rgba(28,26,23,.15)"><td class="kis-td">2</td><td class="kis-td">Divya Rao</td><td class="kis-td">Assembly Line 2</td><td class="kis-td">4</td><td class="kis-td">&#8377;96,500</td></tr>
+        <tr style="border-bottom:2px solid rgba(28,26,23,.15)"><td class="kis-td">3</td><td class="kis-td">Meena Nair</td><td class="kis-td">Packing</td><td class="kis-td">5</td><td class="kis-td">&#8377;71,900</td></tr>
+        <tr style="border-bottom:2px solid rgba(28,26,23,.15)"><td class="kis-td">4</td><td class="kis-td">Rahul Verma</td><td class="kis-td">Quality</td><td class="kis-td">3</td><td class="kis-td">&#8377;58,300</td></tr>
+        <tr style="border-bottom:2px solid rgba(28,26,23,.15)"><td class="kis-td">5</td><td class="kis-td">Sanjay Iyer</td><td class="kis-td">Assembly Line 2</td><td class="kis-td">3</td><td class="kis-td">&#8377;44,100</td></tr>
+        <tr style="border-bottom:2px solid rgba(28,26,23,.15)"><td class="kis-td">6</td><td class="kis-td">Vikram Shetty</td><td class="kis-td">Maintenance</td><td class="kis-td">4</td><td class="kis-td">&#8377;39,700</td></tr>
+        <tr style="border-bottom:2px solid rgba(28,26,23,.15)"><td class="kis-td">7</td><td class="kis-td">Kavya Reddy</td><td class="kis-td">Packing</td><td class="kis-td">2</td><td class="kis-td">&#8377;28,000</td></tr>
+        <tr style="border-bottom:2px solid rgba(28,26,23,.15)"><td class="kis-td">8</td><td class="kis-td">Naveen Das</td><td class="kis-td">Quality</td><td class="kis-td">2</td><td class="kis-td">&#8377;21,600</td></tr>
+        <tr style="border-bottom:2px solid rgba(28,26,23,.15)"><td class="kis-td">9</td><td class="kis-td">Pooja Shah</td><td class="kis-td">Assembly Line 2</td><td class="kis-td">2</td><td class="kis-td">&#8377;17,450</td></tr>
+        <tr><td class="kis-td">10</td><td class="kis-td">Imran Khan</td><td class="kis-td">Maintenance</td><td class="kis-td">1</td><td class="kis-td">&#8377;9,800</td></tr>
+      </tbody>
+    </table>
+   </div>
+  </div>
+</div>
+</x-import>
+</div>
+
+</div>
+
+</x-dc>
+</body>
+</html>
